@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Encapsulated component - Greeting</title>
+    </head>
+    <body>
+        <div id="logindiv">
+            <select id="lang">
+                <option value="en">English</option>
+                <option value="br">Português (Brasil)</option>
+            </select>
+            <input type="button" value="Login" id="login" />
+        </div>
+        <h1 id='greeting'></h1>
+        <p>Try these on the console:</p>
+        <p>greet</p>        
+        <p>greet.__proto__</p>
+        <p>greet.log()</p>
+        <p>greet.setLanguage('br').log()</p>
+        <p>greet.showDomMessage('#greeting')</p>
+        <p>greet.formalGreeting()</p>
+        <script src="jquery-1.11.2.js"></script>
+        <script src="Greetr.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
